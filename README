@@ -1,0 +1,8 @@
+mvn clean install
+    -> jar를 만듬
+
+SpringBootApplication에서 어떤 application.properties을 사용할지 결정
+    application-jenkins.properties
+        -Dspring.profiles.active=jenkins
+        spring.datasource.username = ${OPENSHIFT_MYSQL_DB_USERNAME}
+

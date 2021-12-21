@@ -1,6 +1,8 @@
 mvn clean install
     -> jar를 만듬
 
+mvn spring-boot:run
+
 SpringBootApplication에서 어떤 application.properties을 사용할지 결정
     application-jenkins.properties
         -Dspring.profiles.active=jenkins

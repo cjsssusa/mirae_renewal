@@ -15,7 +15,7 @@
 	<name>DnbnSvr</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<!-- <java.version>8</java.version> -->
+		 <java.version>16</java.version>
 		<!-- Spring boot main class -->
 		<start-class>kr.co.landfuture.dnbnApplication</start-class>
 	</properties>
